@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  font-family: "Times New Roman", Times, serif;
+  color: #171717;
+}
+h1 {
+  text-align: center;
+  background-color:  #89ABE3FF;
+  color: #171717;
+  padding: 20px;
+}
+
+body {
+  background-color:   #ADD8E6;
+}
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  font-size: larger;
+}
+
+table,
+th,
+td {
+  border: 1px solid #171717;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.prvni {
+  height: 223px;
+}
+.druhe {
+  height: 75px;
+}
+.treti {
+  height: 50px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.gold {
+  background-color: goldenrod;
+}
+.silver {
+  background-color: silver;
+}
+.bronze {
+  background-color: #cd7f32;
+}
+.nadpis-tabulka {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.logo{
+  height: 150px;
+}
+.radek{
+  width: 250px;
+}
+.tabulka {
+  background-color:  #89ABE3FF;
+}

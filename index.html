@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabulky v html</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+
+        <table class="tabulka">
+            <caption class="nadpis-tabulka">
+                Skeleton : ženy (Finále)
+            </caption>
+            <thead>
+                <tr>
+                    <th>Umístění</th>
+                    <th>Sportovec</th>
+                    <th>Stát</th>
+                    <th>Výkon</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="gold">
+                    <td class="text-center text-bold">1.</td>
+                    <td class="text-bold">Neiseová</td>
+                    <td class="text-bold">
+                        <img src="img/nemecko.png" alt="Nemecko" class="prvni" /> Německo
+                    </td>
+                    <td class="text-right text-bold">4:07.62</td>
+                </tr>
+                <tr class="silver">
+                    <td class="text-center">2.</td>
+                    <td class="text-bold">Narracottová</td>
+                    <td class="text-bold">
+                        <img src="img/Australie1.gif" alt="Australie" class="druhe" />
+                        Austrálie
+                    </td>
+                    <td class="text-right text-bold">4:08.24</td>
+                </tr>
+                <tr class="bronze">
+                    <td class="text-center">3.</td>
+                    <td class="text-bold">Bosová</td>
+                    <td class="text-bold">
+                        <img src="img/nizozemsko.png" alt="Nizozemsko" class="treti" /> Nizozemsko
+                    </td>
+                    <td class="text-right text-bold">4:08.46</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="text-center">
+                        Zimní olympijské hry Peking 2022
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+        <h2>Tabulka</h2>
+        <table class="tabulka">
+            <tbody>
+                <tr>
+                    <td rowspan="3" class="radek"><img src="img/logo.jpg" alt="logo ZOH 2022" class="logo"></td>
+                    <td colspan="2" class="text-bold">Zimní olympijské hry 2022</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Účastní se 2 871 sportovců</td>
+                </tr>
+                <tr>
+                    <td>od: 4. února 2022</td>
+                    <td>do: 20. února 2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <hr />
+        <p>&copy; David Peterek, 2022</p>
+    </footer>
+
+</body>
+
+</html>
